@@ -35,5 +35,21 @@
         border-radius: 5px;
         margin: .4rem;
         width: 40%;
+        cursor: pointer;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+
+        &:hover {
+            background-color: $button-hover;
+            transform: scale(1.1);
+            transition: all 1s linear;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main {
+        &__login, &__register {
+            width: 23%;
+        }
     }
 }

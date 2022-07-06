@@ -14,6 +14,10 @@
         padding: 2rem;
     }
 
+    &__logo {
+        display: none;
+    }
+
     &__links {
         padding: 0 1rem;
     }
@@ -26,4 +30,18 @@
         left: -0.5px;
         top: 0px;
     }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        &__nav {
+            margin: auto -2rem;
+        }
+
+        &__logo {
+            width: 128px;
+            display: block;
+        }
+    }
+
 }
