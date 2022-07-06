@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+$background: #3772FF;
+$white: #FFFF;
+$button: #FC7071;
+$footer: #36D6AD;
+$company: #0A376F;
+$font: 'IBM Plex Sans', sans-serif;
+
+html {
+    background-color: $background;
+}
+
+.body {
+    font-size: 16px;
+    background: url('../img/header.svg')no-repeat, url('../img/vetor2.svg') no-repeat right center;
+    height: 40rem;
+    font-family: $font;
+}
+
+@import 'reset' ,'header', 'main', 'footer'
