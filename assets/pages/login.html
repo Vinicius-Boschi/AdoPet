@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>AdoPet</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Adopet - Login</title>
 </head>
-<body class="body">
+<body>
     <header class="header">
         <nav class="header__nav">
             <div class="header__lists">
                 <ul class="header__list-group">
-                    <img src="assets/img/Logo.png" alt="" class="header__logo">
+                    <img src="../img/logo.png" alt="" class="header__logo">
                     <li class="header__list">
                         <a href="#" class="header__links">
-                            <img src="assets/img/Casa.png" alt="casa" class="header__img">
+                            <img src="../img/Casa.png" alt="casa" class="header__img">
                         </a>
                     </li>
                     <li class="header__list">
                         <a href="#" class="header__links">
-                            <img src="assets/img/Mensagens.png" alt="email" class="header__img">
+                            <img src="../img/Mensagens.png" alt="email" class="header__img">
                         </a>
                     </li>
                 </ul>
@@ -31,24 +31,26 @@
 
     <main class="main">
         <div class="main__picture">
-            <img src="assets/img/Logo.png" alt="" class="main__logo">
-        </div>
-        <div class="main__welcome">
-            <h1 class="main__title">Boas-vindas!</h1>
+            <img src="../img/logoAzul.png" alt="" class="main__logo">
         </div>
         <div class="main__text">
-            <p class="main__info_text">Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!</p>
+            <p class="main__question">Já tem conta? Faça seu login: </p>
         </div>
         <div class="main__buttons">
-            <button class="main__login">
-                <a href="assets/pages/login.html">Já tenho conta</a>
-            </button>
+            <form action="#" class="main__form">
+                <label for="email">
+                    Email
+                    <input type="email" name="email" class="main__email" id="email" placeholder="Escolha seu melhor email" required>
+                </label>
+                <label for="password">
+                    Senha
+                    <input type="password" name="password" class="main__password" id="password" placeholder="Crie uma senha" minlength="6" maxlength="12" onkeyup="strongPassword()" required>
+                    <span class="main__status" id="status"></span>
+                </label>
+            </form>
             <button class="main__register">
-                <a href="assets/pages/register.html">Quero me cadastrar</a>
+                <a href="/index.html">Cadastrar</a>
             </button>
-        </div>
-        <div class="main__photo">
-            <img src="assets/img/ilustração1.png" alt="foto cachorro e gato">
         </div>
     </main>
 
@@ -56,7 +58,7 @@
         <h1 class="footer__text">2022 - Desenvolvido por <span class="footer__name">Vinícius Boschi</span> na <span class="footer__company">Alura</span>.</h1>
     </footer>
 
-    <script src="assets/js/script.js"></script>
+    <script src="../js/script.js"></script>
     
 </body>
 </html>

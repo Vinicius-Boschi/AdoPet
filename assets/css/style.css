@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
-html {
-  background-color: #3772FF;
-}
-
-.body {
-  font-size: 16px;
-  background: url("../img/header.svg") no-repeat, url("../img/vetor2.svg") no-repeat right center;
-  height: 40rem;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,60 +48,21 @@ table {
   border-spacing: 0;
 }
 
-.header__nav {
-  width: 90vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-.header__list-group {
-  display: flex;
-  align-items: center;
-  padding: 2rem;
-}
-.header__logo {
-  display: none;
-}
-.header__links {
-  padding: 0 1rem;
-}
-.header__line {
-  background: url("../img/vetor4.svg") no-repeat;
-  position: absolute;
-  width: 100%;
-  height: 17rem;
-  left: -0.5px;
-  top: 0px;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .header__nav {
-    margin: auto -2rem;
-  }
-  .header__logo {
-    width: 128px;
-    display: block;
-  }
+::-webkit-scrollbar-track {
+  background: #FFFF;
+  border-radius: 30px;
 }
-.main {
-  text-align: center;
-  color: #FFFF;
+
+::-webkit-scrollbar-thumb {
+  background: #FC7071;
+  border-radius: 30px;
+  visibility: visible;
 }
-.main__picture {
-  margin-top: 3rem;
-}
-.main__title {
-  font-weight: bold;
-  font-size: 26px;
-  margin-top: 2rem;
-}
-.main__text {
-  width: 60%;
-  display: inline-block;
-  padding: 1rem;
-  line-height: 1.3;
-}
+
 .main__buttons {
   display: flex;
   justify-content: center;
@@ -136,18 +86,111 @@ table {
   transform: scale(1.1);
   transition: all 1s linear;
 }
+.main__login a, .main__register a {
+  text-decoration: none;
+}
+.main__email, .main__name, .main__password, .main__rptpassword {
+  border: none;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.main__email::placeholder, .main__name::placeholder, .main__password::placeholder, .main__rptpassword::placeholder {
+  color: #BCBCBC;
+}
+.main__password, .main__rptpassword {
+  background: #F6F6F6 url("/assets/img/olho.png") no-repeat right center;
+  cursor: pointer;
+}
 
-@media screen and (min-width: 900px) {
-  .main__login, .main__register {
-    width: 23%;
+.header__nav {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.header__list-group {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.header__logo {
+  display: none;
+}
+.header__links {
+  padding: 0 1rem;
+}
+.header__line {
+  background: url("/assets/img/vetor4.svg") no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 17rem;
+  left: -0.5px;
+  top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    width: 128px;
+    display: block;
+  }
+}
+.body {
+  font-size: 16px;
+  background: url("/assets/img/header1.svg") no-repeat;
+  background-color: #3772FF;
+  height: 40rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    background: url("/assets/img/header.svg") no-repeat;
+    background-color: #3772FF;
+  }
+}
+.main {
+  text-align: center;
+  color: #FFFF;
+}
+.main__picture {
+  margin-top: 3rem;
+}
+.main__title {
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 2rem;
+}
+.main__text {
+  padding: 1rem;
+  line-height: 1.5;
+}
+.main__welcome, .main__info_text {
+  display: inline-block;
+  width: 70%;
+  color: #FFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .main__logo {
+    margin-top: 2rem;
+  }
+  .main__welcome, .main__info_text {
+    width: 27%;
   }
 }
 .footer {
   background: #36D6AD;
   color: #FFFF;
-  height: 5%;
   padding: 2rem;
-  line-height: 1.3;
+  margin-top: 2.5rem;
+  position: absolute;
+  width: calc(100% - 65px);
+  line-height: 2;
 }
 .footer__text {
   text-align: center;
@@ -158,6 +201,81 @@ table {
 }
 .footer__company {
   color: #0A376F;
+}
+
+@media screen and (min-width: 1400px) {
+  .footer {
+    line-height: 70px;
+  }
+}
+body {
+  background: url("/assets/img/header1.svg") no-repeat, url("/assets/img/patas.png") no-repeat right top;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.main {
+  color: #000;
+  height: 100%;
+  background: url("/assets/img/vetor2.svg") no-repeat right top;
+}
+.main__question, .main__paragraph {
+  color: #3772FF;
+  font-weight: bold;
+}
+.main__paragraph {
+  padding: 1rem;
+  width: 40%;
+  display: inline-block;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  width: 312px;
+}
+.main label {
+  display: contents;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399.98px) {
+  body {
+    background: url("/assets/img/header.svg") no-repeat, url("/assets/img/patas.png") no-repeat right top;
+  }
+
+  .main__paragraph {
+    width: 60%;
+  }
+  .main__form {
+    width: 344px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    background: url("/assets/img/header.svg") no-repeat, url("/assets/img/patas.png") no-repeat right top;
+  }
+
+  .main__paragraph {
+    width: 30%;
+  }
+  .main__form {
+    width: 552px;
+  }
+  .main__password, .main__rptpassword {
+    width: 360px;
+    align-self: center;
+  }
+  .main__register, .main__login {
+    width: 362px;
+  }
+}
+.main__retrieve {
+  color: #FC7071;
+  font-size: 12px;
+  line-height: 24px;
+}
+.main__register {
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

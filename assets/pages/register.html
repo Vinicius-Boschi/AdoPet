@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Adopet - Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__lists">
+                <ul class="header__list-group">
+                    <img src="../img/logo.png" alt="" class="header__logo">
+                    <li class="header__list">
+                        <a href="#" class="header__links">
+                            <img src="../img/Casa.png" alt="casa" class="header__img">
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="#" class="header__links">
+                            <img src="../img/Mensagens.png" alt="email" class="header__img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__line"></div>
+        </nav>
+    </header>   
+
+    <main class="main">
+        <div class="main__picture">
+            <img src="../img/logoAzul.png" alt="" class="main__logo">
+        </div>
+        <div class="main__text">
+            <p class="main__question">Ainda não tem cadastro?</p>
+            <p class="main__paragraph">Então, antes de buscar seu melhor amigo, precisamos de alguns dados: </p>
+        </div>
+        <div class="main__buttons">
+            <form action="#" class="main__form">
+                <label for="email">
+                    Email
+                    <input type="email" name="email" class="main__email" id="email" placeholder="Escolha seu melhor email" required>
+                </label>
+                <label for="name">
+                    Nome
+                <input type="name" name="name" class="main__name" id="name" placeholder="Digite seu nome completo" required>
+                </label>
+                <label for="password">
+                    Senha
+                    <input type="password" name="password" class="main__password" id="password" placeholder="Crie uma senha" minlength="6" maxlength="12" onkeyup="strongPassword()" required>
+                    <span class="main__status" id="status"></span>
+                </label>
+                <label for="password">
+                    Confirme sua senha
+                    <input type="password" name="password" class="main__rptpassword" id="rptpassword" placeholder="Repita a senha criada acima" minlength="6" maxlength="12" onkeyup="passwordEqual()" required>
+                    <span class="main__status" id="status"></span>
+                </label>
+            </form>
+            <button class="main__register">
+                <a href="/index.html">Cadastrar</a>
+            </button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h1 class="footer__text">2022 - Desenvolvido por <span class="footer__name">Vinícius Boschi</span> na <span class="footer__company">Alura</span>.</h1>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>

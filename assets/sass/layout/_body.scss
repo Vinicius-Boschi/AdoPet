@@ -1,0 +1,14 @@
+.body {
+    font-size: 16px;
+    background: $image;
+    background-color: $background;
+    height: 40rem;
+    font-family: $font;
+}
+
+@media screen and (min-width: 768px) {
+    .body {
+        background: $imageResponsive;
+        background-color: $background;
+    }
+}

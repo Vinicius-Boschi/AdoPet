@@ -1,5 +1,4 @@
 .header {
-    
     &__nav {
         width: 90vw;
         margin: 0 auto;
@@ -23,7 +22,7 @@
     }
 
     &__line {
-        background: url('../img/vetor4.svg') no-repeat;
+        background: $imageLineHeader;
         position: absolute;
         width: 100%;
         height: 17rem;
@@ -34,10 +33,7 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        &__nav {
-            margin: auto -2rem;
-        }
-
+        
         &__logo {
             width: 128px;
             display: block;

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+$background: #3772FF !default;
+$white: #FFFF !default;
+$button: #FC7071 !default;
+$button-hover: #FF9D9E !default;
+$footer: #36D6AD !default;
+$company: #0A376F !default;
+$colorText: #000;
+$light-gray: #F6F6F6 !default;
+$placeholder: #BCBCBC !default;
+$font: 'IBM Plex Sans', sans-serif !default;
+$image: url('/assets/img/header1.svg') no-repeat !default;
+$imageResponsive: url('/assets/img/header.svg') no-repeat !default;
+$imageRegister: url('/assets/img/header1.svg')no-repeat, url('/assets/img/patas.png') no-repeat right top;
+$imageMainRegister: url('/assets/img/forma2.svg') no-repeat left center;
+$imageBodyRegister: url('/assets/img/header.svg')no-repeat, url('/assets/img/patas.png') no-repeat right top;
+$imageResponsiveRegister: url('/assets/img/vetor2.svg') no-repeat right top;
+$imageLineHeader: url('/assets/img/vetor4.svg') no-repeat;
+$imagePassword: $light-gray url('/assets/img/olho.png') no-repeat right center;
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $white;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $button;
+    border-radius: 30px;
+    visibility: visible;
+}       

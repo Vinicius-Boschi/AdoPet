@@ -1,0 +1,76 @@
+body {
+    background: $imageRegister;
+    font-family: $font;
+}
+
+.main {
+    color: $colorText;
+    height: 100%;
+    background: $imageResponsiveRegister;
+    
+    &__question, &__paragraph {
+        color: $background;
+        font-weight: bold;
+    }
+
+    &__paragraph {
+        padding: 1rem;
+        width: 40%;
+        display: inline-block;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+        width: 312px;
+    }
+
+    label {
+        display: contents;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399.98px) {
+
+    body {
+        background: $imageBodyRegister;
+    }
+
+    .main {
+        &__paragraph {
+            width: 60%;
+        }
+
+        &__form {
+            width: 344px;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        background: $imageBodyRegister;
+    }
+
+    .main {
+        &__paragraph {  
+            width: 30%;
+        }
+
+        &__form {
+            width: 552px;
+        }
+
+        &__password, &__rptpassword {
+            width: 360px;
+            align-self: center;
+        }
+
+        &__register, &__login {
+            width: 362px;
+        }
+    }
+}
