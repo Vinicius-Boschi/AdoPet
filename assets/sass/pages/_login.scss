@@ -5,6 +5,13 @@
         line-height: 24px;
     }
 
+    &__forgot {
+        a {
+            color: $button;
+            font-size: 12px;
+        }
+    }
+
     &__register {
         margin: 1rem;
     }

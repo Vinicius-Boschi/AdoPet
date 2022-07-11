@@ -224,7 +224,7 @@ body {
 }
 .main__paragraph {
   padding: 1rem;
-  width: 40%;
+  width: 75%;
   display: inline-block;
 }
 .main__form {
@@ -273,6 +273,10 @@ body {
   color: #FC7071;
   font-size: 12px;
   line-height: 24px;
+}
+.main__forgot a {
+  color: #FC7071;
+  font-size: 12px;
 }
 .main__register {
   margin: 1rem;
