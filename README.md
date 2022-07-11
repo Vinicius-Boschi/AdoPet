@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="./assets/img/logo.png" width=250>
+  <img src="./assets/img/logos&icons/logo.png" width=250>
 </div>
   
 <h3> :dart: Objetivos do site</h3>
@@ -7,6 +7,9 @@ Esse é um projeto da <strong>Alura</strong> para adoção de pets.
   
 # <h3> :pencil: Boas-vindas</h3>  
 ![boas-vindas](https://user-images.githubusercontent.com/74377158/177813625-61a7c4e1-b9b0-4ac2-8b9e-a48d839f3c19.jpg)
+
+# <h3> :pencil: Home</h3>  
+![Home](https://user-images.githubusercontent.com/74377158/178362104-0195cfae-24ed-48ec-8f14-98d8eb102275.jpg)
 
 # <h3> :file_folder: Acessar o projeto</h3>
 Acesse o projeto por este [link](https://adopetalura.netlify.app/).
