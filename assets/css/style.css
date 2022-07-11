@@ -70,7 +70,7 @@ table {
   flex-direction: column;
   align-items: center;
 }
-.main__login, .main__register {
+.main__login, .main__register, .main__send {
   background-color: #FC7071;
   border: none;
   color: #FFFF;
@@ -82,12 +82,12 @@ table {
   cursor: pointer;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
-.main__login:hover, .main__register:hover {
+.main__login:hover, .main__register:hover, .main__send:hover {
   background-color: #FF9D9E;
   transform: scale(1.1);
   transition: all 1s linear;
 }
-.main__login a, .main__register a {
+.main__login a, .main__register a, .main__send a {
   text-decoration: none;
 }
 .main__email, .main__name, .main__password, .main__rptpassword {
@@ -371,6 +371,57 @@ body {
   .main__container {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 5rem;
+  }
+}
+.main {
+  font-family: "Poppins", sans-serif;
+  color: #3772FF;
+  margin-top: 1rem;
+}
+.main__message {
+  width: 65%;
+  display: inline-block;
+}
+.main__rectangle {
+  width: calc(100% - 30px);
+  margin-left: 1rem;
+}
+.main__content {
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px -7px #000000;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.main__form {
+  text-align: left;
+  padding-top: 1rem;
+}
+.main label {
+  line-height: 3;
+}
+.main #nome, .main #phone, .main #animal, .main #msg {
+  height: 40px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border: none;
+}
+.main #nome::placeholder, .main #phone::placeholder, .main #animal::placeholder, .main #msg::placeholder {
+  color: #BCBCBC;
+  padding: 1rem;
+}
+.main #msg {
+  height: 172px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399.98px) {
+  body {
+    background: url("/assets/img/svg/header.svg") no-repeat;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    background: url("/assets/img/svg/header.svg") no-repeat;
   }
 }
 

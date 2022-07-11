@@ -1,0 +1,65 @@
+.main {
+    font-family: $fontHome;
+    color: $background;
+    margin-top: 1rem;
+
+    &__message {
+        width: 65%;
+        display: inline-block;
+    }
+
+    &__rectangle {
+        width: calc(100% - 30px);
+        margin-left: 1rem;
+    }
+
+    &__content {
+        background-color: $light-gray;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px -7px #000000;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+    
+    &__form {
+        text-align: left;
+        padding-top: 1rem;
+    }
+
+    label {
+        line-height: 3;
+    }
+
+    #nome, #phone, #animal, #msg {
+        height: 40px;
+        box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+        border-radius: 6px;
+        border: none;
+
+        &::placeholder {
+            color: $placeholder;
+            padding: 1rem;
+        }
+    }
+
+    #msg {
+        height: 172px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1399.98px) {
+
+    body {
+        background: $imageResponsive;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        background: $imageResponsive;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Adopet - Mensagens</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__lists">
+                <ul class="header__list-group">
+                    <img src="../img/logos&icons/logo.png" alt="" class="header__logo">
+                    <li class="header__list">
+                        <a href="#" class="header__links">
+                            <img src="../img/logos&icons/Casa.png" alt="casa" class="header__img">
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="#" class="header__links">
+                            <img src="/assets/img/logos&icons/Mensagens.png" alt="email" class="header__img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__user">
+                <a href="#">
+                    <img src="/assets/img/logos&icons/Usuário.png" alt="foto logo usuário" class="header__img">
+                </a>
+            </div>
+            <div class="header__line"></div>
+        </nav>
+    </header>   
+
+    <main class="main">
+
+        <div class="main__text">
+            <p class="main__message">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal: </p>
+        </div>
+
+        <form action="#" class="main__rectangle">
+            <div class="main__content">
+                <div class="main__form">
+                    <label for="nome" class="main__form-name">Nome: </label>
+                    <input type="text" id="nome" placeholder="Insira seu nome completo" required>
+                </div>
+                <div class="main__form">
+                    <label for="tel">Telefone: </label>
+                    <input type="tel" id="phone" placeholder="Insira seu telefone e/ou whatsapp" required>
+                </div>
+                <div class="main__form">
+                    <label for="text">Nome do Animal: </label>
+                    <input type="text" id="animal" placeholder="Por qual animal você se interessou?" required>
+                </div>
+                <div class="main__form">
+                    <label for="msg">Mensagem: </label>
+                    <textarea id="msg" placeholder="Escreva sua mensagem."></textarea>
+                </div>
+                <div class="main__buttons">
+                    <input type="submit" value="Enviar" class="main__send">
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <h1 class="footer__text">2022 - Desenvolvido por <span class="footer__name">Vinícius Boschi</span> na <span class="footer__company">Alura</span>.</h1>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
