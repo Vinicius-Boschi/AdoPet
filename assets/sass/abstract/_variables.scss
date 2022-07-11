@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 $background: #3772FF !default;
 $white: #FFFF !default;
@@ -10,14 +11,7 @@ $colorText: #000;
 $light-gray: #F6F6F6 !default;
 $placeholder: #BCBCBC !default;
 $font: 'IBM Plex Sans', sans-serif !default;
-$image: url('/assets/img/header1.svg') no-repeat !default;
-$imageResponsive: url('/assets/img/header.svg') no-repeat !default;
-$imageRegister: url('/assets/img/header1.svg')no-repeat, url('/assets/img/patas.png') no-repeat right top;
-$imageMainRegister: url('/assets/img/forma2.svg') no-repeat left center;
-$imageBodyRegister: url('/assets/img/header.svg')no-repeat, url('/assets/img/patas.png') no-repeat right top;
-$imageResponsiveRegister: url('/assets/img/vetor2.svg') no-repeat right top;
-$imageLineHeader: url('/assets/img/vetor4.svg') no-repeat;
-$imagePassword: $light-gray url('/assets/img/olho.png') no-repeat right center;
+$fontHome: 'Poppins', sans-serif;
 
 ::-webkit-scrollbar {
     width: 10px;

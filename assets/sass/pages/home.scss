@@ -1,0 +1,103 @@
+body{
+    background: $image;
+    background-color: $white;
+}
+
+.header {
+    &__user {
+        display: flex;
+        align-items: center;
+        margin-right: 2.5rem;
+        z-index: 1;
+    }
+}
+
+.main {
+    background: none;
+
+    &__adoption {
+        width: 55%;
+        display: inline-block;
+        color: $background;
+        font-weight: bold;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: $fontHome;
+    }
+
+    &__infos {
+        background-color: $light-gray;
+        padding: 1rem;
+        margin: 1rem auto;
+        box-shadow: 0px 5px 10px -7px #000000;
+    }
+
+    &__img {
+        width: 150px;
+        height: auto;
+    }
+
+    &__animals {
+        display: inline-block;
+        vertical-align: top;
+        padding: .5rem;
+        line-height: 1.5;
+        text-align: initial;
+    }
+
+    &__name_animal {
+        color: $background;
+        font-weight: bold;
+    }
+
+    &__age, &__city {
+        padding-top: 1rem;
+    }
+
+    &__contact {
+        display: flex;
+        gap: .5rem;
+        padding-top: .5rem;
+
+        p {
+            font-size: 11px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399.98px) {
+
+    body {
+        background: $imageResponsive;
+    }
+
+    .main { 
+        margin-top: 6rem;
+        margin-left: 1rem;
+
+        &__container {
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        background: $imageResponsive;
+    }
+
+    .main { 
+        background: $imageResponsiveRegister;
+        margin-top: 2rem;
+
+        &__container {
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 5rem;
+        }
+    }
+}

@@ -17,6 +17,10 @@
         display: none;
     }
 
+    &__list {
+        z-index: 1;
+    }
+
     &__links {
         padding: 0 1rem;
     }
