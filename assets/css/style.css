@@ -383,6 +383,7 @@ body {
   display: inline-block;
 }
 .main__rectangle {
+  display: flex;
   width: calc(100% - 30px);
   margin-left: 1rem;
 }
@@ -418,10 +419,24 @@ body {
   body {
     background: url("/assets/img/svg/header.svg") no-repeat;
   }
+
+  .main {
+    background: url("/assets/img/svg/vetor2.svg") no-repeat right top;
+  }
+  .main__message {
+    margin-top: 4rem;
+  }
+  .main__form {
+    width: 492px;
+  }
 }
 @media screen and (min-width: 1400px) {
   body {
     background: url("/assets/img/svg/header.svg") no-repeat;
+  }
+
+  .main__message {
+    width: 32%;
   }
 }
 

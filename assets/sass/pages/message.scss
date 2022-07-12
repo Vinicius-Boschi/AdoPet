@@ -9,6 +9,7 @@
     }
 
     &__rectangle {
+        display: flex;
         width: calc(100% - 30px);
         margin-left: 1rem;
     }
@@ -55,11 +56,30 @@
     body {
         background: $imageResponsive;
     }
+
+    .main {
+        background: $imageResponsiveRegister;
+
+        &__message {
+            margin-top: 4rem;
+        }
+
+        &__form {
+            width: 492px;
+        }
+    }
 }
 
 @media screen and (min-width: 1400px) {
 
     body {
         background: $imageResponsive;
+    }
+
+    .main {
+
+        &__message {
+            width: 32%;
+        }
     }
 }
