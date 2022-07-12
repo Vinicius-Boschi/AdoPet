@@ -16,12 +16,25 @@ body {
     &__form {
         display: flex;
         flex-direction: column;
+        // justify-content: flex-end;
         line-height: 1.5;
         width: 312px;
     }
 
     label {
         display: contents;
+        font-weight: bold;
+    }
+
+    &__eye {
+        position: absolute;
+        margin: 4rem auto;
+        width: 30px;
+        align-self: end;
+    }
+
+    &__status, &__statusEqual {
+        font-size: 12px;
         font-weight: bold;
     }
 }
@@ -55,8 +68,8 @@ body {
             align-self: center;
         }
 
-        &__register, &__login {
-            width: 362px;
+        &__eye {
+            margin-left: -6rem;
         }
     }
 }

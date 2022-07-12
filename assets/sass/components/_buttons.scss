@@ -34,17 +34,12 @@
         background-color: $light-gray;
         border-radius: 5px;
         padding: 0.5rem;
-        margin: 1rem;
+        margin-top: 1rem;
         box-shadow: 0px 2px 2px rgb(0 0 0 / 15%);
         text-align: center; 
 
         &::placeholder {
             color: $placeholder;
         }
-    }
-
-    &__password, &__rptpassword {
-        background: $imagePassword;
-        cursor: pointer;
     }
 }
