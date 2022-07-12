@@ -6,7 +6,7 @@
 Esse é um projeto da <strong>Alura</strong> para adoção de pets.
   
 # <h3> :pencil: Boas-vindas</h3>  
-![boas-vindas](https://user-images.githubusercontent.com/74377158/177813625-61a7c4e1-b9b0-4ac2-8b9e-a48d839f3c19.jpg)
+![boas-vindas](https://user-images.githubusercontent.com/74377158/178602779-ecd6cf5f-0562-47bb-9316-3795ff660099.jpg)
 
 # <h3> :pencil: Home</h3>  
 ![Home](https://user-images.githubusercontent.com/74377158/178362104-0195cfae-24ed-48ec-8f14-98d8eb102275.jpg)
@@ -15,8 +15,7 @@ Esse é um projeto da <strong>Alura</strong> para adoção de pets.
 Acesse o projeto por este [link](https://adopetalura.netlify.app/).
 
 # <h3> :heavy_check_mark: Status do Projeto:</h3>
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
+![Badge Concluido em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=blue&style=for-the-badge)
 # <h3> :hammer: Funcionalidades do projeto</h3>
 - `Funcionalidade 1`: Cadastro.
 - `Funcionalidade 2`: Login.
