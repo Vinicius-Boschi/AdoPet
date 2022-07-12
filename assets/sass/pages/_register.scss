@@ -1,5 +1,4 @@
 body {
-    background: $imageRegister;
     font-family: $font;
 }
 
@@ -7,11 +6,6 @@ body {
     color: $colorText;
     height: 100%;
     background: $imageResponsiveRegister;
-    
-    &__question, &__paragraph {
-        color: $background;
-        font-weight: bold;
-    }
 
     &__paragraph {
         padding: 1rem;
@@ -34,10 +28,6 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1399.98px) {
 
-    body {
-        background: $imageBodyRegister;
-    }
-
     .main {
         &__paragraph {
             width: 60%;
@@ -50,10 +40,6 @@ body {
 }
 
 @media screen and (min-width: 1400px) {
-
-    body {
-        background: $imageBodyRegister;
-    }
 
     .main {
         &__paragraph {  

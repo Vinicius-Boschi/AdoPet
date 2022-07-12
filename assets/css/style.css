@@ -172,6 +172,7 @@ table {
 .main__text {
   padding: 1rem;
   line-height: 1.5;
+  font-weight: bold;
 }
 .main__welcome, .main__info_text {
   display: inline-block;
@@ -213,7 +214,6 @@ table {
   }
 }
 body {
-  background: url("/assets/img/svg/header1.svg") no-repeat, url("/assets/img/patas.png") no-repeat right top;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -221,10 +221,6 @@ body {
   color: #000;
   height: 100%;
   background: url("/assets/img/svg/vetor2.svg") no-repeat right top;
-}
-.main__question, .main__paragraph {
-  color: #3772FF;
-  font-weight: bold;
 }
 .main__paragraph {
   padding: 1rem;
@@ -243,10 +239,6 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1399.98px) {
-  body {
-    background: url("/assets/img/svg/header.svg") no-repeat, url("/assets/img/patas.png") no-repeat right top;
-  }
-
   .main__paragraph {
     width: 60%;
   }
@@ -255,10 +247,6 @@ body {
   }
 }
 @media screen and (min-width: 1400px) {
-  body {
-    background: url("/assets/img/svg/header.svg") no-repeat, url("/assets/img/patas.png") no-repeat right top;
-  }
-
   .main__paragraph {
     width: 30%;
   }
@@ -305,7 +293,6 @@ body {
   width: 55%;
   display: inline-block;
   color: #3772FF;
-  font-weight: bold;
 }
 .main__container {
   display: grid;
@@ -376,7 +363,6 @@ body {
 .main {
   font-family: "Poppins", sans-serif;
   color: #3772FF;
-  margin-top: 1rem;
 }
 .main__message {
   width: 65%;

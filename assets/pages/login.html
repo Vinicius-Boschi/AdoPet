@@ -36,25 +36,22 @@
         <div class="main__text">
             <p class="main__question">Já tem conta? Faça seu login: </p>
         </div>
-        <div class="main__buttons">
-            <form action="#" class="main__form">
-                <label for="email">
-                    Email
+        <form action="#" class="main__rectangle">
+            <div class="main__content">
+                <div class="main__form">
+                    <label for="email" class="main__form-name">Email: </label>
                     <input type="email" name="email" class="main__email" id="email" placeholder="Escolha seu melhor email" required>
-                </label>
-                <label for="password">
-                    Senha
-                    <input type="password" name="password" class="main__password" id="password" placeholder="Crie uma senha" minlength="6" maxlength="12" onkeyup="strongPassword()" required>
+                </div>
+                <div class="main__form">
+                    <label for="password">Senha: </label>
+                    <input type="password" name="password" class="main__password" id="password" placeholder="Entre com a sua senha" minlength="6" maxlength="12" onkeyup="strongPassword()" required>
                     <span class="main__status" id="status"></span>
-                </label>
-                <p class="main__forgot">
-                    <a href="#">Esqueci a senha</a>
-                </p>
-            </form>
-            <button class="main__register">
-                <a href="/assets/pages/home.html">Entrar</a>
-            </button>
-        </div>
+                </div>
+                <div>
+                    <input type="submit" value="Entrar" class="main__send">
+                </div>
+            </div>
+        </form>
     </main>
 
     <footer class="footer">
