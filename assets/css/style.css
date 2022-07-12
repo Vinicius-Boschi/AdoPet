@@ -78,7 +78,7 @@ table {
   padding: 0.5rem;
   border-radius: 5px;
   margin: 2rem;
-  width: 40%;
+  width: 15%;
   cursor: pointer;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
@@ -89,6 +89,9 @@ table {
 }
 .main__login a, .main__register a, .main__send a {
   text-decoration: none;
+}
+.main__send {
+  width: 30%;
 }
 .main__email, .main__name, .main__password, .main__rptpassword {
   border: none;
@@ -240,6 +243,7 @@ body {
   margin: 4rem auto;
   width: 30px;
   align-self: end;
+  cursor: pointer;
 }
 .main__status, .main__statusEqual {
   font-size: 12px;

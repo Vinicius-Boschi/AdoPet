@@ -16,7 +16,6 @@ body {
     &__form {
         display: flex;
         flex-direction: column;
-        // justify-content: flex-end;
         line-height: 1.5;
         width: 312px;
     }
@@ -31,6 +30,7 @@ body {
         margin: 4rem auto;
         width: 30px;
         align-self: end;
+        cursor: pointer;
     }
 
     &__status, &__statusEqual {
