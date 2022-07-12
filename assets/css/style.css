@@ -202,11 +202,12 @@ table {
   text-align: center;
   letter-spacing: 1px;
 }
-.footer__name {
+.footer__name, .footer__company {
+  color: #0A376F;
   font-weight: bold;
 }
-.footer__company {
-  color: #0A376F;
+.footer__name a, .footer__company a {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1400px) {

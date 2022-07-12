@@ -12,12 +12,13 @@
         letter-spacing: 1px;
     }
 
-    &__name {
-        font-weight: bold;
-    }
-
-    &__company {
+    &__name, &__company {
         color: $company;
+        font-weight: bold;
+        
+        a {
+            text-decoration: none;
+        }
     }
 }
 
